@@ -13,7 +13,7 @@ manifest:
       import: app/west.yml
     - name: zmk-driver-iqs9151
       remote: ShiniNet
-      revision: main
+      revision: TapDragTest
     - name: zmk-easy-charge-indicator
       remote: ShiniNet
       revision: main
