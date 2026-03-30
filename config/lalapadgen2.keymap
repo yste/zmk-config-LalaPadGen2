@@ -55,12 +55,22 @@
 
         COMBO_TAB {
             bindings = <&kp TAB>;
-            key-positions = <10 11>;
+            key-positions = <11 12>;
         };
 
         S_TAB {
             bindings = <&kp LS(TAB)>;
-            key-positions = <11 12>;
+            key-positions = <12 13>;
+        };
+
+        QT {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <17 18>;
+        };
+
+        DQ {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <18 19>;
         };
     };
 
@@ -132,12 +142,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        Cond_Syslayer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
