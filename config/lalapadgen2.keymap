@@ -15,7 +15,7 @@
   tapping-term-ms = <700>;
 };
 
-&lt { tapping-teerm-ms = <700>; };
+&lt { tapping-term-ms = <700>; };
 
 / {
     behaviors {
