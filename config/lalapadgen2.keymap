@@ -12,11 +12,10 @@
 #define SYSTEM_LAYER    3
 
 &mt {
-  tapping-term-ms = <500>;
-  quick-tap-ms = <200>; 
+  tapping-term-ms = <700>;
 };
 
-&lt { quick-tap-ms = <200>; };
+&lt { tapping-teerm-ms = <700>; };
 
 / {
     behaviors {
