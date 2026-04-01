@@ -13,9 +13,13 @@
 
 &mt {
   tapping-term-ms = <500>;
+  flavor = "tap-preferred";
 };
 
-&lt { tapping-term-ms = <500>; };
+&lt { 
+  tapping-term-ms = <500>; 
+  vlavor = "tap-preferred";
+};
 
 / {
     behaviors {
