@@ -12,12 +12,14 @@
 #define SYSTEM_LAYER    3
 
 &mt {
-  tapping-term-ms = <500>;
+  tapping-term-ms = <300>;
+  require-prior-idle-ms = <150>;
   flavor = "tap-preferred";
 };
 
 &lt { 
-  tapping-term-ms = <500>; 
+  tapping-term-ms = <300>;
+  require-prior-idle-ms = <150>;
   flavor = "tap-preferred";
 };
 
