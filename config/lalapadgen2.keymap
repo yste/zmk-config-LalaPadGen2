@@ -115,7 +115,7 @@
             display-name = "tertiary_layer";
             bindings = <
 &kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DOLLAR        &kp PERCENT                  &kp CARET  &kp AMPERSAND  &kp ASTERISK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LESS_THAN     &kp UNDER                    &kp MINUS  &kp EQUAL      &kp NON_US_BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET
+&kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp PLUS          &kp UNDER                    &kp MINUS  &kp EQUAL      &kp NON_US_BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET
 &kp GRAVE        &kp SQT        &kp SEMI      &kp LEFT_BRACKET  &kp PIPE                     &kp TILDE  &kp GRAVE      &kp SQT               &kp LEFT_BRACE        &kp RIGHT_BRACE
 &trans           &trans         &trans        &trans            &trans       &trans  &trans  &trans     &trans         &trans                &trans                &trans
                  &trans         &trans        &trans            &trans       &trans  &trans  &trans     &trans         &trans                &trans
